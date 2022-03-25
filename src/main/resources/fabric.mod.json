@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "onecontrol",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "OneControl",
+  "description": "A mod aimed at both providing controller support, and a radial menu for other complex keybinds.",
   "authors": [
-    "Me!"
+    "LemonHead"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://lemonheadongit.github.io/OneControl/",
+    "sources": "https://github.com/LemonHeadOnGit/OneControl/"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/onecontrol/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.lemonhead.onecontrol.OneControl"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "onecontrol.mixins.json"
   ],
 
   "depends": {
